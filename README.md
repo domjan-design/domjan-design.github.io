@@ -1,2 +1,2 @@
 # domjan-design.hu
-domjan-design.hu  website hosting
+domjan-design.hu website hosting
