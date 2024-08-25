@@ -1,2 +1,2 @@
-# domjan-design.github.io
+# domjan-design.hu
 domjan-design.hu  website hosting
