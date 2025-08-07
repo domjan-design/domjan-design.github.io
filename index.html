@@ -2,6 +2,8 @@
 <html lang="hu">
 <head><meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
+
+
   <meta content="text/html; charset=UTF-8" http-equiv="content-type">
   <meta name="Description" content="informatív leírás">
 
@@ -20,14 +22,54 @@
   a:hover { text-decoration:underline; }
   </style>
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-	
+  <style>
+    .message-box {
+	  position: fixed;
+      top: 25%;
+      right: 40%;
+	  left: 40%;
+	  background-color: #fff8dc;
+      color: #333;
+      border: 1px solid #ccc;
+      padding: 15px 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      border-radius: 8px;
+      font-size: 16px;
+      z-index: 10000; /* make sure it stays on top */
+    }
+	.close-btn {
+      position: absolute;
+      top: 8px;
+      right: 12px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #666;
+      cursor: pointer;
+    }
+    .close-btn:hover {
+      color: #000;
+    }
+  </style>
+
 </head>
 
 <body>
+
+<div class="message-box" id="messageBox">
+<span class="close-btn" onclick="document.getElementById('messageBox').style.display='none'">&times;</span>
+<br>
+<b>Kedves Látogató!</b><br>
+<br>
+Ezúton szeretnénk tájékoztatni, hogy üzletünk véglegesen bezárt.<br>
+Szívből köszönjük mindenkinek a bizalmat, a megrendeléseket, és az elmúlt évek során tanúsított támogatást!<br>
+<br>
+Minden jót kívánunk a jövőre nézve!<br>
+<br>
+Üdvözlettel,<br>
+Domján László Tamás<br>
+ <br>
+</div>
+
 
 <center>
 <font size="-2">&nbsp;</font>
@@ -51,11 +93,17 @@
 
       <font size="-1">
 
+
       </font>
+
 
       <table style="width: 760px;" border="0" cellpadding="5" cellspacing="4">
 
         <tbody>
+
+      
+
+            
 
             <td colspan="10" rowspan="10"><br>
 
